@@ -21,8 +21,7 @@ montaTabela = function(listaClubes){
 		strTabela += "</td><td>";
 		strTabela += listaClubes[clube]['data'];
 		strTabela += "</td><td>";
-		strTabela += moment(listaClubes[clube]['data']).fromNow(true);
-//		strTabela += getNiceTime(listaClubes[clube].dataDate());
+		strTabela += getNiceTime(listaClubes[clube].dataDate());
 		strTabela += "</td></tr>\n";
 	}
 	strTabela += "</table>";

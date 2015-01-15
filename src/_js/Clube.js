@@ -7,7 +7,8 @@ Clube = function(clube) {
 	this.data = clube['data'];
 
 	this.dataDate = function(){
-		return new moment(this.data, 'YYYY-MM-DD');
+		var data = new Date(this.data);
+		return new Date(data.getTime() + data.getTimezoneOffset()*60*1000);
 	}
 
 	Clube.sortByDate = function(a, b) {
