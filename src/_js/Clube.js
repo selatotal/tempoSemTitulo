@@ -25,10 +25,10 @@ Clube = function(identificador, clube) {
 		}
 		retorno += data.getDate();
 		retorno += "/";
-		if (data.getMonth() < 10){
+		if (data.getMonth()+1 < 10){
 			retorno += "0";
 		}
-		retorno += data.getMonth();
+		retorno += data.getMonth()+1;
 		retorno += "/";
 		retorno += data.getFullYear();
 		return retorno;
