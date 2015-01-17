@@ -25,7 +25,8 @@
     "core-toolbar": "Polymer/core-toolbar",
     "paper-tabs": "Polymer/paper-tabs",
     "font-roboto": "Polymer/font-roboto",
-    "core-ajax": "Polymer/core-ajax"
+    "core-ajax": "Polymer/core-ajax",
+    "google-adsense": "kessiler/google-adsense"
   }
 
 }
