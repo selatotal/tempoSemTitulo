@@ -1,9 +1,11 @@
-Clube = function(clube) {
+Clube = function(identificador, clube) {
 	
+	this.identificador = identificador;
+
 	this.nome = clube['nome'];
 	
 	this.titulo = clube['titulo'];
-	
+
 	this.data = clube['data'];
 
 	this.dataDate = function(){
@@ -14,4 +16,25 @@ Clube = function(clube) {
 	Clube.sortByDate = function(a, b) {
 		return a.dataDate() - b.dataDate();
 	}
+
+	this.formataData = function() {
+		var data = this.dataDate();
+		var retorno = ""
+		if (data.getDate() < 10){
+			retorno += "0";
+		}
+		retorno += data.getDate();
+		retorno += "/";
+		if (data.getMonth() < 10){
+			retorno += "0";
+		}
+		retorno += data.getMonth();
+		retorno += "/";
+		retorno += data.getFullYear();
+		return retorno;
+	}
+
+	this.tempoSemTitulo = getNiceTime(this.dataDate());
+
+	this.dataFormatada = this.formataData();
 }

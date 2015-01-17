@@ -31,9 +31,6 @@ getNiceTime = function(date1, date2){
         date2 = new Date(date2.getTime() + date2.getTimezoneOffset()*60*1000);
     }
     
-    console.log("1 - " + date1);
-    console.log("2 - " + date2);
-
     var diff = diffDate(date1, date2);
     var anos = meses = dias = "";
 

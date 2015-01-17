@@ -1,0 +1,31 @@
+{
+  "name": "Tempo Sem Titulo",
+  "version": "0.0.1",
+  "homepage": "https://github.com/selatotal/tempoSemTitulo",
+  "authors": [
+    "Tales Viegas <selatotal@gmail.com>"
+  ],
+  "description": "Mostra quanto tempo os clubes brasileiros estão sem ganhar um título",
+  "main": "index.html",
+  "keywords": [
+    "futebol",
+    "titulos"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.2",
+    "core-header-panel": "Polymer/core-header-panel",
+    "core-toolbar": "Polymer/core-toolbar",
+    "paper-tabs": "Polymer/paper-tabs",
+    "font-roboto": "Polymer/font-roboto",
+    "core-ajax": "Polymer/core-ajax"
+  }
+
+}

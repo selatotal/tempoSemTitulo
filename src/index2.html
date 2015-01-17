@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+	<head>
+
+		<title>Tempo Sem Título</title>
+		<meta charset="utf-8" />
+
+		<!-- Social Tags -->
+		<meta property="og:url" content="http://www.nois.com.br/temposemtitulo" />
+		<link rel="canonical" href="http://www.nois.com.br/temposemtitulo" />
+		<meta property="og:title" content="Tempo Sem Título" />
+		
+		<meta property="og:description" content="Veja quanto tempo o seu time de futebol está sem ganhar um título" />
+		<meta name="description" content="Veja quanto tempo o seu time de futebol está sem ganhar um título" />
+		
+		<meta property="og:image" content="http://www.nois.com.br/temposemtitulo/_img/img_sharer.png" /> 
+		<link rel="image_src" href="http://www.nois.com.br/temposemtitulo/_img/img_sharer.png" />
+
+		<meta property="og:locale" content="pt_BR" /> 
+		<meta property="og:site_name" content="Tempo Sem Título" />
+		<meta property="fb:app_id" content="379199121951" /> 
+
+		<meta property="article:publisher" content="https://www.facebook.com/selat" />
+
+		<!-- Carrega o Polymer antes de qualquercoisa -->
+		<script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+		
+		<!-- Carrega os componentes com HTML import -->
+		<link rel="import" href="bower_components/font-roboto/roboto.html" />
+		<link rel="import" href="bower_components/core-header-panel/core-header-panel.html" />
+		<link rel="import" href="bower_components/core-toolbar/core-toolbar.html" />
+		<link rel="import" href="bower_components/paper-tabs/paper-tabs.html" />
+		<link rel="import" href="bower_components/paper-tabs/paper-tab.html" />
+		<link rel="import" href="elements/post-list.html" />
+		<link rel="stylesheet" type="text/css" href="_css/styles.css" />
+
+	</head>
+	<body unresolved>
+
+		<script src="_js/shareFB.js"></script>
+
+		<!-- Declara o elemento pela sua Tag -->
+		<core-header-panel glex>
+			<core-toolbar>Tempo Sem Título</core-toolbar>
+
+			<div class="container" layout vertical center>
+				<post-list show="all"></post-list>
+			</div>
+		</core-header-panel>
+
+	</body>
+</html>
+
