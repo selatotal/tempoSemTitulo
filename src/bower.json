@@ -29,5 +29,9 @@
     "core-menu": "Polymer/core-menu",
     "google-adsense": "kessiler/google-adsense",
     "paper-dialog": "Polymer/paper-dialog#~0.5.2"
+  },
+  "resolutions": {
+    "polymer": "~0.5.2",
+    "core-component-page": "^0.5.0"
   }
 }
