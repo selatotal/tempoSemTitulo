@@ -16,6 +16,13 @@ core-toolbar {
 	color: white;
 }
 
+.closeButton {
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	color: #636363;
+}
+
 #tabs {
 	width: 100%;
 	margin: 0;
@@ -29,6 +36,10 @@ core-toolbar {
 .container {
 	width: 80%;
 	margin: 50px auto;
+}
+
+paper-button {
+    background: #FFFFFF;
 }
 
 @media (min-width: 481px) {

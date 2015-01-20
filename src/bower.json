@@ -26,7 +26,8 @@
     "paper-tabs": "Polymer/paper-tabs",
     "font-roboto": "Polymer/font-roboto",
     "core-ajax": "Polymer/core-ajax",
-    "google-adsense": "kessiler/google-adsense"
+    "core-menu": "Polymer/core-menu",
+    "google-adsense": "kessiler/google-adsense",
+    "paper-dialog": "Polymer/paper-dialog#~0.5.2"
   }
-
 }

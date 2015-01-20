@@ -31,6 +31,8 @@
 		<link rel="import" href="bower_components/core-toolbar/core-toolbar.html" />
 		<link rel="import" href="bower_components/paper-tabs/paper-tabs.html" />
 		<link rel="import" href="bower_components/paper-tabs/paper-tab.html" />
+		<link rel="import" href="bower_components/paper-dialog/paper-dialog.html" />
+		<link rel="import" href="bower_components/paper-button/paper-button.html" />
 		<link rel="import" href="elements/post-list.html" />
 		<link rel="import" href="bower_components/google-adsense/dist/google-adsense.html">
 
@@ -43,18 +45,40 @@
 
 		<!-- Declara o elemento pela sua Tag -->
 		<core-header-panel glex>
-			<core-toolbar>Tempo Sem Título</core-toolbar>
+			<core-toolbar>
+				Tempo Sem Título
+			</core-toolbar>
 
+			<paper-button raised onclick="openCriteriaDialog()"><core-icon icon="description"></core-icon>Critérios</paper-button>
+			<paper-button raised onclick="openAboutDialog()"><core-icon icon="info"></core-icon>Sobre</paper-button>
 			<div class="container" layout vertical center>
 				<google-adsense client="1947917459627990" slot="2496529313" width="728" height="90"></google-adsense>
 				<post-list show="all"></post-list>
 			</div>
 
 			<footer>
-				Rodapé
+				<paper-dialog id="criteria" heading="Critérios" transition="paper-transition-center" closeSelector="#cl-but1">
+					<p>São considerados apenas os clubes das séries A e B do Campeonato Brasileiro</p>
+					<p>São considerados apenas títulos do futebol profissional de cada clube, sendo:</p>
+					<ul>
+						<li>Campeonatos Estaduais: sem contar copas/taças que são fases intermediárias, como Taça Rio, Taça Guanabara, etc.</li>
+						<li>Campeonatos Regionais: Taça Sul-Minas, Copa do Nordeste, etc.</li>
+						<li>Campeonatos Nacionais: Qualquer série do Campeonato Brasileiro (A, B, C ou D), Copa do Brasil</li>
+						<li>Campeonatos Internacionais: Libertadores, Sul-Americana, Recopa ou Mundial. Não considera torneios como Copa Dubai, Taça Suruga ou outros torneios caça-níqueis no estilo.
+					</ul>
+					<p>Os times que estão sem ganhar um título há mais tempo são exibidos primeiro.</p>
+					<div align="right"><paper-button raised id="cl-but1" dismissive>Fechar</paper-button></div>
+				</paper-dialog>
+				<paper-dialog id="about" heading="Sobre" transition="paper-transition-center" closeSelector="#cl-but2">
+					<p>Esta página foi criada para tentar sanar a dúvida sobre qual é o último título que determinado time conquistou.</p>
+					<p>Também resolvi criar esta página para brincar um pouco com Web Components utilizando Polymer.</p>
+					<p>Criado por Tales Bitelo Viegas (<a href="https://github.com/selatotal" target="_blank">https://github.com/selatotal</a>). 
+					<p>O código-fonte da página está disponível no Github através da URL: <a href="https://github.com/selatotal/tempoSemTitulo" target="_blank">https://github.com/selatotal/tempoSemTitulo</a></p>
+					<div align="right"><paper-button raised id="cl-but2" dismissive>Fechar</paper-button></div>
+				</paper-dialog>
 			</footer>
 		</core-header-panel>
-
+		<script src="_js/dialogs.js"></script>
 	</body>
 </html>
 
