@@ -11,8 +11,8 @@
 	},
 	"atletico-mg" : {
 		"nome" : "Atlético/MG",
-		"titulo" : "Copa do Brasil",
-		"data" : "2014-11-26"
+		"titulo" : "Campeonato Mineiro",
+		"data" : "2014-05-03"
 	},
 	"atletico-go" : {
 		"nome" : "Atlético/GO",
@@ -29,6 +29,11 @@
 		"titulo" : "Campeonato Catarinense",
 		"data" : "2012-05-13"
 	},
+	"bahia" : {
+		"nome" : "Bahia/BA",
+		"titulo" : "Campeonato Baiano",
+		"data" : "2015-05-03"
+	},
 	"bragantino" : {
 		"nome" : "Bragantino/SP",
 		"titulo" : "Campeonato Brasileiro - Série C",
@@ -39,10 +44,15 @@
 		"titulo" : "Nenhum",
 		"data" : "1947-04-30"
 	},
+	"botafogo" : {
+		"nome" : "Botafogo/RJ",
+		"titulo" : "Campeonato Carioca",
+		"data" : "2015-05-03"
+	},
 	"ceara" : {
 		"nome" : "Ceará/CE",
-		"titulo" : "Campeonato Cearense",
-		"data" : "2014-04-23"
+		"titulo" : "Copa do Nordeste",
+		"data" : "2015-04-29"
 	},
 	"chapecoense" : {
 		"nome" : "Chapecoense/SC",
@@ -62,7 +72,12 @@
 	"crb" : {
 		"nome" : "CRB/AL",
 		"titulo" : "Campeonato Alagoano",
-		"data" : "2013-05-19"
+		"data" : "2015-05-06"
+	},
+	"criciuma" : {
+		"nome" : "Criciuma/SC",
+		"titulo" : "Campeonato Catarinense",
+		"data" : "2013-05-12"
 	},
 	"cruzeiro" : {
 		"nome" : "Cruzeiro/MG",
@@ -87,7 +102,7 @@
 	"goias" : {
 		"nome" : "Goiás/GO",
 		"titulo" : "Campeonato Goiano",
-		"data" : "2013-05-19"
+		"data" : "2015-05-03"
 	},
 	"gremio" : {
 		"nome" : "Grêmio/RS",
@@ -97,12 +112,12 @@
 	"internacional-rs" : {
 		"nome" : "Internacional/RS",
 		"titulo" : "Campeonato Gaúcho",
-		"data" : "2014-04-13"
+		"data" : "2015-05-03"
 	},
 	"joinville" : {
 		"nome" : "Joinville/SC",
-		"titulo" : "Campeonato Brasileiro - Série B",
-		"data" : "2014-11-29"
+		"titulo" : "Campeonato Catarinense",
+		"data" : "2015-05-03"
 	},
 	"luverdense" : {
 		"nome" : "Luverdense/MT",
@@ -156,13 +171,13 @@
 	},
 	"santa-cruz" : {
 		"nome" : "Santa Cruz/PE",
-		"titulo" : "Campeonato Brasileiro - Série C",
-		"data" : "2013-12-01"
+		"titulo" : "Campeonato Pernambucano",
+		"data" : "2015-05-03"
 	},
 	"santos" : {
 		"nome" : "Santos/SP",
-		"titulo" : "Recopa Sul-Americana",
-		"data" : "2012-09-26"
+		"titulo" : "Campeonato Paulista",
+		"data" : "2015-05-03"
 	},
 	"sao-paulo" : {
 		"nome" : "São Paulo/SP",
@@ -178,5 +193,10 @@
 		"nome" : "Vasco da Gama/RJ",
 		"titulo" : "Copa do Brasil",
 		"data" : "2011-06-08"
+	},
+	"vitoria" : {
+		"nome" : "Vitória/BA",
+		"titulo" : "Campeonato Baiano",
+		"data" : "2013-05-19"
 	}
 }
