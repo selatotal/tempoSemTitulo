@@ -72,7 +72,7 @@
 	"crb" : {
 		"nome" : "CRB/AL",
 		"titulo" : "Campeonato Alagoano",
-		"data" : "2015-05-06"
+		"data" : "2016-05-08"
 	},
 	"criciuma" : {
 		"nome" : "Criciuma/SC",
@@ -87,7 +87,7 @@
 	"figueirense" : {
 		"nome" : "Figueirense/SC",
 		"titulo" : "Campeonato Catarinense",
-		"data" : "2014-04-13"
+		"data" : "2015-05-03"
 	},
 	"flamengo" : {
 		"nome" : "Flamengo/RJ",
@@ -96,13 +96,13 @@
 	},
 	"fluminense" : {
 		"nome" : "Fluminense/RJ",
-		"titulo" : "Campeonato Brasileiro",
-		"data" : "2012-12-09"
+		"titulo" : "Copa Primeira Liga",
+		"data" : "2016-04-20"
 	},
 	"goias" : {
 		"nome" : "Goiás/GO",
 		"titulo" : "Campeonato Goiano",
-		"data" : "2015-05-03"
+		"data" : "2016-05-08"
 	},
 	"gremio" : {
 		"nome" : "Grêmio/RS",
@@ -112,7 +112,7 @@
 	"internacional-rs" : {
 		"nome" : "Internacional/RS",
 		"titulo" : "Campeonato Gaúcho",
-		"data" : "2015-05-03"
+		"data" : "2016-05-08"
 	},
 	"joinville" : {
 		"nome" : "Joinville/SC",
