@@ -146,8 +146,8 @@
 	},
 	"palmeiras" : {
 		"nome" : "Palmeiras/SP",
-		"titulo" : "Campeonato Brasileiro - Série B",
-		"data" : "2013-11-30"
+		"titulo" : "Campeonato Brasileiro",
+		"data" : "2016-12-04"
 	},
 	"parana" : {
 		"nome" : "Paraná/PR",
