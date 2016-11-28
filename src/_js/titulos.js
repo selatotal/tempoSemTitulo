@@ -34,11 +34,6 @@
 		"titulo" : "Campeonato Baiano",
 		"data" : "2015-05-03"
 	},
-	"bragantino" : {
-		"nome" : "Bragantino/SP",
-		"titulo" : "Campeonato Brasileiro - Série C",
-		"data" : "2007-12-01"
-	},
 	"boa" : {
 		"nome" : "Boa/MG",
 		"titulo" : "Campeonato Brasileiro - Série C",
@@ -48,6 +43,16 @@
 		"nome" : "Botafogo/RJ",
 		"titulo" : "Campeonato Brasileiro - Série B",
 		"data" : "2015-11-28"
+	},
+	"bragantino" : {
+		"nome" : "Bragantino/SP",
+		"titulo" : "Campeonato Brasileiro - Série C",
+		"data" : "2007-12-01"
+	},
+	"brasil-rs" : {
+		"nome" : "Brasil/RS",
+		"titulo" : "Campeonato Gaúcho",
+		"data" : "1919-11-09"
 	},
 	"ceara" : {
 		"nome" : "Ceará/CE",
@@ -119,6 +124,11 @@
 		"titulo" : "Campeonato Brasileiro - Série B",
 		"data" : "2014-11-29"
 	},
+	"londrina" : {
+		"nome" : "Londrina/PR",
+		"titulo" : "Campeonato Paranaense",
+		"data" : "2014-04-13"
+	},
 	"luverdense" : {
 		"nome" : "Luverdense/MT",
 		"titulo" : "Campeonato Mato-Grossense",
@@ -189,14 +199,24 @@
 		"titulo" : "Campeonato Pernambucano",
 		"data" : "2014-04-23"
 	},
+	"tupi" : {
+		"nome" : "Tupi/MG",
+		"titulo" : "Campeonato Brasileiro - Série D",
+		"data" : "2011-11-20"
+	},
 	"vasco-da-gama" : {
 		"nome" : "Vasco da Gama/RJ",
-		"titulo" : "Copa do Brasil",
-		"data" : "2011-06-08"
+		"titulo" : "Campeonato Carioca",
+		"data" : "2016-05-08"
+	},
+	"vila-nova" : {
+		"nome" : "Vila Nova/GO",
+		"titulo" : "Campeonato Brasileiro - Série C",
+		"data" : "2015-11-21"
 	},
 	"vitoria" : {
 		"nome" : "Vitória/BA",
 		"titulo" : "Campeonato Baiano",
-		"data" : "2013-05-19"
+		"data" : "2016-05-08"
 	}
 }
