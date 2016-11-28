@@ -114,6 +114,11 @@
 		"titulo" : "Campeonato Gaúcho",
 		"data" : "2010-05-12"
 	},
+	"guarani" : {
+		"nome" : "Guarani/SP",
+		"titulo" : "Campeonato Brasileiro - Série B",
+		"data" : "1981-03-27"
+	},
 	"internacional-rs" : {
 		"nome" : "Internacional/RS",
 		"titulo" : "Campeonato Gaúcho",
@@ -123,6 +128,11 @@
 		"nome" : "Joinville/SC",
 		"titulo" : "Campeonato Brasileiro - Série B",
 		"data" : "2014-11-29"
+	},
+	"juventude" : {
+		"nome" : "Juventude/RS",
+		"titulo" : "Copa do Brasil",
+		"data" : "1999-06-27"
 	},
 	"londrina" : {
 		"nome" : "Londrina/PR",
