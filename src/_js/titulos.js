@@ -156,8 +156,8 @@
 	},
 	"paysandu" : {
 		"nome" : "Paysandu/PA",
-		"titulo" : "Campeonato Paraense",
-		"data" : "2013-05-19"
+		"titulo" : "Copa Verde",
+		"data" : "2013-05-10"
 	},
 	"ponte-preta" : {
 		"nome" : "Ponte Preta/SP",
@@ -172,12 +172,12 @@
 	"santa-cruz" : {
 		"nome" : "Santa Cruz/PE",
 		"titulo" : "Campeonato Pernambucano",
-		"data" : "2015-05-03"
+		"data" : "2016-05-08"
 	},
 	"santos" : {
 		"nome" : "Santos/SP",
 		"titulo" : "Campeonato Paulista",
-		"data" : "2015-05-03"
+		"data" : "2016-05-08"
 	},
 	"sao-paulo" : {
 		"nome" : "São Paulo/SP",
