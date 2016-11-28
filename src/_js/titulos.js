@@ -116,17 +116,17 @@
 	},
 	"joinville" : {
 		"nome" : "Joinville/SC",
-		"titulo" : "Campeonato Catarinense",
-		"data" : "2015-05-03"
+		"titulo" : "Campeonato Brasileiro - Série B",
+		"data" : "2014-11-29"
 	},
 	"luverdense" : {
 		"nome" : "Luverdense/MT",
 		"titulo" : "Campeonato Mato-Grossense",
-		"data" : "2012-05-02"
+		"data" : "2016-05-08"
 	},
 	"macae" : {
 		"nome" : "Macaé/RJ",
-		"titulo" : "Campeonato Brasileiro",
+		"titulo" : "Campeonato Brasileiro - Série C",
 		"data" : "2014-11-22"
 	},
 	"mogi-mirim" : {
