@@ -2,27 +2,27 @@
 	"abc-rn" : {
 		"nome" : "ABC/RN",
 		"titulo" : "Campeonato Potiguar",
-		"data" : "2011-05-08"
+		"data" : "2016-04-16"
 	},
 	"america-mg" : {
 		"nome" : "América/MG",
-		"titulo" : "Campeonato Brasileiro - Série C",
-		"data" : "2009-09-19"
+		"titulo" : "Campeonato Mineiro",
+		"data" : "2016-05-08"
 	},
 	"atletico-mg" : {
 		"nome" : "Atlético/MG",
 		"titulo" : "Campeonato Mineiro",
-		"data" : "2014-05-03"
+		"data" : "2015-04-26"
 	},
 	"atletico-go" : {
 		"nome" : "Atlético/GO",
-		"titulo" : "Campeonato Goiano",
-		"data" : "2014-04-13"
+		"titulo" : "Campeonato Brasileiro - Série B",
+		"data" : "2016-11-26"
 	},
 	"atletico-pr" : {
 		"nome" : "Atlético/PR",
 		"titulo" : "Campeonato Paranaense",
-		"data" : "2009-05-03"
+		"data" : "2016-05-01"
 	},
 	"avai" : {
 		"nome" : "Avaí/SC",
@@ -41,13 +41,13 @@
 	},
 	"boa" : {
 		"nome" : "Boa/MG",
-		"titulo" : "Nenhum",
-		"data" : "1947-04-30"
+		"titulo" : "Campeonato Brasileiro - Série C",
+		"data" : "2016-11-05"
 	},
 	"botafogo" : {
 		"nome" : "Botafogo/RJ",
-		"titulo" : "Campeonato Carioca",
-		"data" : "2015-05-03"
+		"titulo" : "Campeonato Brasileiro - Série B",
+		"data" : "2015-11-28"
 	},
 	"ceara" : {
 		"nome" : "Ceará/CE",
@@ -57,12 +57,12 @@
 	"chapecoense" : {
 		"nome" : "Chapecoense/SC",
 		"titulo" : "Campeonato Catarinense",
-		"data" : "2011-05-01"
+		"data" : "2016-05-06"
 	},
 	"corinthians" : {
 		"nome" : "Corinthians/SP",
-		"titulo" : "Recopa Sul-Americana",
-		"data" : "2013-07-17"
+		"titulo" : "Campeonato Brasileiro",
+		"data" : "2015-12-06"
 	},
 	"coritiba" : {
 		"nome" : "Coritiba/PR",
