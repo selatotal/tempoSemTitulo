@@ -8,5 +8,5 @@ Tecnologias Envolvidas:
 * Polymer: https://www.polymer-project.org/
 * Bower: http://bower.io/
 
-Disponível em: http://www.nois.com.br/temposemtitulo
+Disponível em: http://www.selat.com.br/temposemtitulo
 
