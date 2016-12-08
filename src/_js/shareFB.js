@@ -18,7 +18,7 @@ urlShare = function(){
 
 	FB.ui({
 		method: 'share',
-		href: encodeURI("http://www.nois.com.br/temposemtitulo/"),
+		href: encodeURI("http://www.selat.com.br/temposemtitulo/"),
 	}, function response(){});
 
 }
