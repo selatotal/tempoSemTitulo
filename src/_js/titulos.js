@@ -111,8 +111,8 @@
 	},
 	"gremio" : {
 		"nome" : "Grêmio/RS",
-		"titulo" : "Campeonato Gaúcho",
-		"data" : "2010-05-12"
+		"titulo" : "Copa do Brasil",
+		"data" : "2016-12-07"
 	},
 	"guarani" : {
 		"nome" : "Guarani/SP",
@@ -167,7 +167,7 @@
 	"palmeiras" : {
 		"nome" : "Palmeiras/SP",
 		"titulo" : "Campeonato Brasileiro",
-		"data" : "2016-12-04"
+		"data" : "2016-12-11"
 	},
 	"parana" : {
 		"nome" : "Paraná/PR",
